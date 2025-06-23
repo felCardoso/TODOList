@@ -55,7 +55,7 @@ If you wish to run this project on your local machine, please follow the steps b
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/felCardoso/TODOList.git](https://github.com/felCardoso/TODOList.git)
+   git clone https://github.com/felCardoso/TODOList.git
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -70,7 +70,7 @@ If you wish to run this project on your local machine, please follow the steps b
 
 <img src="https://avatars.githubusercontent.com/felCardoso?s=120" width="120px;" alt="felCardosoAvatar"/>
 
-Project developed by **[Felipe Cardoso]**.
+Project developed by **Felipe Cardoso**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felip-cardoso/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/felCardoso)
