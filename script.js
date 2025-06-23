@@ -10,7 +10,7 @@ const addTask = () => {
   const taskText = taskInput.value.trim();
 
   if (taskText === "") {
-    alert("Por favor, digite uma tarefa.");
+    alert("Please, add a task!");
     return;
   }
 
