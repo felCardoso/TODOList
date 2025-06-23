@@ -3,7 +3,7 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 <p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JmcTRoazFsejd5czR2OWFnMG56M3g0cWp2NHlmd29yamxjOWVvdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hEyKCdtJKe7WtqFzue/giphy.gif" alt="TODOList Demo" width="600px">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2JmcTRoazFsejd5czR2OWFnMG56M3g0cWp2NHlmd29yamxjOWVvdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hEyKCdtJKe7WtqFzue/giphy.gif" alt="TODOList Demo" width="400px">
 </p>
 
 > A simple yet powerful to-do list project designed to showcase fundamental front-end development skills, including DOM manipulation, event handling, and data persistence using `localStorage`.
