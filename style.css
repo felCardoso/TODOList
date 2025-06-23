@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Essencial para o layout não quebrar com padding e bordas */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7fc; /* Um cinza azulado bem claro */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinha o container no topo */
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+/* --- Container Principal --- */
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px; /* Garante que não fique largo demais em telas grandes */
+}
+
+/* --- Header / Titles Section --- */
+header h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4a4e69;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #6a6a6a;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* --- New Task Section --- */
+.new-task {
+  display: flex;
+  gap: 0.5rem; /* Spacing Input / Button */
+}
+
+#task-input {
+  flex-grow: 1;
+  padding: 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#task-input:focus {
+  outline: none;
+  border-color: #6c63ff; /* Destaque ao focar no input */
+}
+
+#add-task-btn {
+  padding: 0.8rem 1rem;
+  background-color: #6c63ff; /* Uma cor de destaque roxa */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#add-task-btn:hover {
+  background-color: #574fd8; /* Um tom mais escuro para o hover */
+}
+
+/* --- Estilos da Lista de Tarefas --- */
+#task-list {
+  list-style: none; /* Remove os pontinhos da lista */
+}
+
+/* Estilos para cada item da lista (serão criados pelo JS) */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:last-child {
+  border-bottom: none; /* Remove a borda do último item */
+}
+
+.task-item span {
+  cursor: pointer; /* Indica que o texto da tarefa é clicável */
+}
+
+/* Classe que será adicionada/removida pelo JS */
+.task-item.done span {
+  text-decoration: line-through;
+  color: #9a9a9a;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.task-item:hover .delete-btn {
+  opacity: 1;
+}
